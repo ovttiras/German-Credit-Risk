@@ -56,9 +56,6 @@ Feature Importance is presented below
 
 Feel free to fork the repository, make changes, and submit pull requests. All contributions are welcome!
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
