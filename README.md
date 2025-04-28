@@ -29,16 +29,16 @@ This project aims to build a machine learning model to predict whether a given i
 ## Results
 
 The results of this project are evaluated based on the following metrics:
-**Cross-validation (train set):**
-- AUC-ROC   : 0.7886 ± 0.0328
-- F1-score  : 0.8315 ± 0.0154
-- Precision : 0.7876 ± 0.0214
-- Recall    : 0.8816 ± 0.0278
-**Test set:**
-- AUC-ROC:   0.7826
-- F1-score:  0.8383
-- Precision: 0.8035
-- Recall:    0.8762
+### Cross-validation on train set
+- `AUC-ROC`: 0.7886 ± 0.0328
+- `F1-score`: 0.8315 ± 0.0154
+- `Precision`: 0.7876 ± 0.0214
+- `Recall`: 0.8816 ± 0.0278
+### Test set
+- `AUC-ROC`: 0.7826
+- `F1-score`: 0.8383
+- `Precision`: 0.8035
+- `Recall`: 0.8762
   <p align="center">
   <img align="middle" src="docs/ROC_AUC.png" alt="workflow" width="800px" class="center">
  </p>
