@@ -3,7 +3,7 @@
 <p align="center">
   <img align="middle" src="docs/main.png" alt="workflow" width="800px" class="center">
  </p>
- This repository contains the implementation of a machine learning model for predicting credit risk using the German Credit dataset. The dataset consists of various attributes such as age, sex, job, credit history, and more to predict whether a person has a good or bad credit risk.
+ This repository contains the implementation of a machine learning model for predicting credit risk using the German Credit dataset. The dataset consists of various attributes such as age, sex, job, credit history, and more to predict whether a person has a good or bad credit risk. The original dataset contains 1000 entries with 20 categorial/symbolic attributes prepared by Prof. Hofmann.
 
 ## Dataset
 
@@ -22,43 +22,9 @@ The dataset used in this project is the [German Credit Data](https://archive.ics
 
 This project aims to build a machine learning model to predict whether a given individual will have good or bad credit. The project involves the following steps:
 1. **Data Preprocessing**: Cleaning the data, handling missing values, and encoding categorical features.
-2. **Exploratory Data Analysis (EDA)**: Analyzing the data distribution, correlations, and feature importance.
-3. **Model Training**: Building and training machine learning models such as Logistic Regression, Decision Trees, Random Forest, and Gradient Boosting.
-4. **Evaluation**: Evaluating the performance of the model using metrics such as accuracy, precision, recall, and F1-score.
-
-## Installation
-
-To run this project on your local machine, follow these steps:
-
-1. Clone this repository:
-    ```bash
-    git clone https://github.com/ovttiras/German-Credit-Risk.git
-    cd German-Credit-Risk
-    ```
-
-2. Install the required libraries:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-## Usage
-
-After setting up the environment, you can run the following scripts:
-
-1. **Data Preprocessing and EDA**:
-    ```bash
-    python preprocess_data.py
-    ```
-
-2. **Model Training**:
-    ```bash
-    python train_model.py
-    ```
-
-3. **Model Evaluation**:
-    ```bash
-    python evaluate_model.py
-    ```
+2.  **Model Training**: Building and training machine learning models such as Gradient Boosting.
+3. **Evaluation**: Evaluating the performance of the model using metrics such as accuracy, precision, recall, and F1-score.
+4. **Feature Importance**  A benefit of using gradient boosting is that after the boosted trees are constructed, it is relatively straightforward to retrieve importance scores for each attribute.
 
 ## Results
 
@@ -67,8 +33,28 @@ The results of this project are evaluated based on the following metrics:
 - Precision
 - Recall
 - F1-score
+-Cross-validation (train set):
+  -AUC-ROC   : 0.7886 ± 0.0328
+  -F1-score  : 0.8315 ± 0.0154
+  -Precision : 0.7876 ± 0.0214
+  -Recall    : 0.8816 ± 0.0278
+- Test set:
+  -AUC-ROC:   0.7826
+  -F1-score:  0.8383
+  -Precision: 0.8035
+  -Recall:    0.8762
+  <p align="center">
+  <img align="middle" src="docs/ROC_AUC.png" alt="workflow" width="800px" class="center">
+ </p>
 
 The final model can predict whether an applicant has a good or bad credit risk with a high degree of accuracy.
+
+## Feature Importance
+
+Feature Importance is presented below
+<p align="center">
+  <img align="middle" src="docs/Feature_Importance.png" alt="workflow" width="800px" class="center">
+ </p>
 
 ## Contributing
 
