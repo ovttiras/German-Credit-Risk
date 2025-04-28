@@ -16,8 +16,7 @@ The dataset used in this project is the [German Credit Data](https://archive.ics
 - `Credit history`: Whether the applicant has a credit history
 - `Purpose`: Purpose of the credit
 - `Balance`: Current balance in the applicant's checking account
-- etc.
-
+A full description of the data can be found at the [link]([https://archive.ics.uci.edu/ml/datasets/Statlog+(German+Credit+Data](https://github.com/ovttiras/German-Credit-Risk/blob/main/docs/German_Credit_Data%20set%20Description.pdf) )) 
 ## Project Description
 
 This project aims to build a machine learning model to predict whether a given individual will have good or bad credit. The project involves the following steps:
