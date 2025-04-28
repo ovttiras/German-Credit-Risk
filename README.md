@@ -1,6 +1,9 @@
 # German Credit Risk Prediction
 
-This repository contains the implementation of a machine learning model for predicting credit risk using the German Credit dataset. The dataset consists of various attributes such as age, sex, job, credit history, and more to predict whether a person has a good or bad credit risk.
+<p align="center">
+  <img align="middle" src="docs/main.png" alt="workflow" width="800px" class="center">
+ </p>
+ This repository contains the implementation of a machine learning model for predicting credit risk using the German Credit dataset. The dataset consists of various attributes such as age, sex, job, credit history, and more to predict whether a person has a good or bad credit risk.
 
 ## Dataset
 
